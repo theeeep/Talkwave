@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"dev": "nodemon --watch  backend/src --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm backend/src/index.ts"
+		"dev": "nodemon --watch  backend/src --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm backend/src/index.ts",
+		"build": "tsc && pnpm install && prisma generate --schema=./backend/prisma/schema.prisma",
+		"start": "node backend/dist/src/index.js"
 	},
 	"keywords": [],
 	"author": "",
