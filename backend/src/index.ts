@@ -16,6 +16,3 @@ app.use("/api", rootRouter);
 server.listen(Port, () => {
 	console.log(`Server started at http://localhost:${Port}`);
 });
-
-// TODO : Add socket.io to the server
-// TODO : Configure for deployment
