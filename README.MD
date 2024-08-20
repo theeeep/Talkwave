@@ -10,11 +10,12 @@ This repository contains the backend implementation for a real-time chat applica
 2. [Technology Stack](#technology-stack)
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
-5. [Configuration](#configuration)
-6. [Usage](#usage)
-7. [API Documentation](#api-documentation)
-8. [WebSocket Events](#websocket-events)
-9. [Deployment](#deployment)
+5. [Database Schema](#database-schema)
+6. [Configuration](#configuration)
+7. [Usage](#usage)
+8. [API Documentation](#api-documentation)
+9. [WebSocket Events](#websocket-events)
+10. [Deployment](#deployment)
 
 ## Features
 
@@ -54,6 +55,10 @@ Ensure you have the following installed:
   ```bash
   pnpm install
   ```
+
+## Database Schema
+
+<img src="databse-schema.png" />
 
 ## Configuration
 
